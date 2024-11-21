@@ -27,7 +27,7 @@ function NewInventory() {
               </li>
               <li className="mb-2">
                 <NavLink
-                  to="#"
+                  to="/newviewappointment"
                   className="hover:bg-gray-700 p-2 rounded-md block text-slate-500 hover:text-slate-100"
                 >
                   View Appointment
@@ -87,14 +87,12 @@ function NewInventory() {
               <br />
               <br />
               <br />
+              <br />
+              <br />
+              <br />
               <hr className="my-4 md:min-w-full" />
 
-              <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-blue-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
-                Add Admin
-              </div>
-              <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-blue-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
-                Add Dentist
-              </div>
+              
               <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-rose-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
                 Logout
               </div>

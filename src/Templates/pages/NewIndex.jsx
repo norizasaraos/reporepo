@@ -84,14 +84,11 @@ function NewIndex() {
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
             <hr className="my-4 md:min-w-full" />
 
-            <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-blue-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
-              Add Admin
-            </div>
-            <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-blue-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
-              Add Dentist
-            </div>
             <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-rose-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
               Logout
             </div>
@@ -128,7 +125,7 @@ function NewIndex() {
             </div>
           </div>
 
-          {/* Table */}
+          {/* Content */}
 
           <div className="p-12 mx-4">
             <Table />

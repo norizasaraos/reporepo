@@ -36,6 +36,7 @@ import New_View_Feedback from "./Templates/pages/New_View_Feedback";
 import NewInventory from "./Templates/pages/NewInventory";
 import NewCalendar from "./Templates/pages/NewCalendar";
 import NewViewAppointment from "./Templates/pages/NewViewAppointment";
+import Newuploadrequirements from "./Templates/pages/Newuploadrequirements";
 
 function App() {
   console.log("Google Client ID:", import.meta.env.VITE_GOOGLE_CLIENT_ID); 
@@ -59,7 +60,8 @@ function App() {
         <Route path="/newcalendar" element={<NewCalendar />} />
         <Route path="/newviewappointment" element={<NewViewAppointment />} />
       
-      
+        <Route path="/newuploadrequirements" element={<Newuploadrequirements />} />
+        
 
         {/* End of New Route/ Page With New Template ----------------------------------- */}
         

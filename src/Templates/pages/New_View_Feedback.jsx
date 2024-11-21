@@ -16,28 +16,28 @@ function New_View_Feedback() {
 
             <ul className="">
               <li className="mb-2">
-                <a
-                  href="/newIndex"
+                <NavLink
+                  to="/newIndex"
                   className="hover:bg-gray-700 p-2 rounded-md block text-slate-500 hover:text-slate-100"
                 >
                   Dashboard
-                </a>
+                </NavLink>
               </li>
               <li className="mb-2">
-                <a
-                  href="#"
+                <NavLink
+                  to="/newviewappointment"
                   className="hover:bg-gray-700 p-2 rounded-md block text-slate-500 hover:text-slate-100"
                 >
                   View Appointment
-                </a>
+                </NavLink>
               </li>
               <li className="mb-2">
-                <a
-                  href="/newcalendar"
+                <NavLink
+                  to="/newcalendar"
                   className="hover:bg-gray-700 p-2 rounded-md block text-slate-500 hover:text-slate-100"
                 >
                   Calendar
-                </a>
+                </NavLink>
               </li>
             </ul>
 
@@ -61,12 +61,12 @@ function New_View_Feedback() {
                 </NavLink>
               </li>
               <li className="mb-2">
-                <a
-                  href="/newsettings"
+                <NavLink
+                  to="/newsettings"
                   className="hover:bg-gray-700 p-2 rounded-md block text-slate-500 hover:text-slate-100"
                 >
                   Settings
-                </a>
+                </NavLink>
               </li>
             </ul>
 
@@ -85,14 +85,13 @@ function New_View_Feedback() {
               <br />
               <br />
               <br />
+              <br />
+              <br />
+              <br />
+              <br />
               <hr className="my-4 md:min-w-full" />
 
-              <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-blue-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
-                Add Admin
-              </div>
-              <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-blue-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
-                Add Dentist
-              </div>
+              
               <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-rose-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
                 Logout
               </div>

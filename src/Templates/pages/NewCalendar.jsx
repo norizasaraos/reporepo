@@ -20,28 +20,28 @@ function NewCalendar() {
 
             <ul className="">
               <li className="mb-2">
-                <a
-                  href="/newIndex"
+                <NavLink
+                  to="/newIndex"
                   className="hover:bg-gray-700 p-2 rounded-md block text-slate-500 hover:text-slate-100"
                 >
                   Dashboard
-                </a>
+                </NavLink>
               </li>
               <li className="mb-2">
-                <a
-                  href="#"
+                <NavLink
+                  to="/newviewappointment"
                   className="hover:bg-gray-700 p-2 rounded-md block text-slate-500 hover:text-slate-100"
                 >
                   View Appointment
-                </a>
+                </NavLink>
               </li>
               <li className="mb-2">
-                <a
-                  href="#"
+                <NavLink
+                  to="/newcalendar"
                   className="hover:bg-gray-700 p-2 rounded-md block text-slate-500 hover:text-slate-100"
                 >
                   Calendar
-                </a>
+                </NavLink>
               </li>
             </ul>
 
@@ -65,12 +65,12 @@ function NewCalendar() {
                 </NavLink>
               </li>
               <li className="mb-2">
-                <a
-                  href="/newsettings"
+                <NavLink
+                  to="/newsettings"
                   className="hover:bg-gray-700 p-2 rounded-md block text-slate-500 hover:text-slate-100"
                 >
                   Settings
-                </a>
+                </NavLink>
               </li>
             </ul>
 
@@ -89,14 +89,12 @@ function NewCalendar() {
               <br />
               <br />
               <br />
+              <br />
+              <br />
+              <br />
               <hr className="my-4 md:min-w-full" />
 
-              <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-blue-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
-                Add Admin
-              </div>
-              <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-blue-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
-                Add Dentist
-              </div>
+              
               <div className="py-2 rounded-lg cursor-pointer font-semibold text-center bg-rose-500 shadow-md my-2 hover:text-white text-slate-400 transition duration-150 ease-in-out">
                 Logout
               </div>
@@ -109,7 +107,7 @@ function NewCalendar() {
               <div className="mx-12 text-slate-800  bg-slate-100 shadow-md rounded-xl p-4">
                 <div className="flex grid-cols-1">
                   <div className="grow justify-self-start my-auto font-semibold">
-                    Inventory
+                    Calendar
                   </div>
 
                   <div className="flex grow">
