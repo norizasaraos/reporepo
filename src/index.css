@@ -2,54 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* New Calendar Css */
-
-.react-calendar {
-  @apply border-2  bg-slate-100 p-3 rounded-xl ;
-}
-
-.react-calendar__tile {
-  @apply p-2 text-center bg-white m-1 shadow-md mx-auto ;
-}
-
-.react-calendar__tile--active {
-  @apply bg-blue-500 text-slate-500 ;
-}
-.react-calendar__navigation{
-  @apply flex gap-1 ;
-}
-.calendar__navigation__prev2-button{
-  @apply text-white bg-white;
-}
-.react-calendar__navigation__arrow{
-  @apply border border-slate-300 shadow-sm
-   bg-white;
-}
-.react-calendar__navigation__label{
-  @apply border border-slate-300 shadow-md bg-white
-}
-
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #dadada;
-  border-radius: 5px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
