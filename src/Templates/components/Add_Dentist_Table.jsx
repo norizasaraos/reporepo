@@ -1,9 +1,10 @@
 
 function Add_Dentist_Table() {
   return (
+    // Dentist Table
    <>
-     <div>
-        <table className="min-w-full table-auto bg-slate-100 rounded-xl shadow-lg">
+     <div className="overflow-y-auto max-h-[500px] shadow-lg rounded-xl">
+        <table className="min-w-full table-auto bg-slate-100 rounded-xl shadow-lg mb-1">
   <thead>
     <tr className="bg-slate-200">
       <th className="px-4 py-2 border-b rounded-tl-xl border-gray-200 text-left text-xs font-semibold text-gray-900 uppercase tracking-wider">

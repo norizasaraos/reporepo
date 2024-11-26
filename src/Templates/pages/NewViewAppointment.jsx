@@ -101,7 +101,7 @@ function NewViewAppointment() {
 
           {/* Main Content */}
           <div className="flex-grow">
-            <div className="w-full p-4">
+            <div className="w-full p-4 overflow-y-auto max-h-[500px] shadow-lg rounded-xl">
               <div className="mx-12 text-slate-800  bg-slate-100 shadow-md rounded-xl p-4">
                 <div className="flex grid-cols-1">
                   <div className="grow justify-self-start my-auto font-bold">
@@ -133,7 +133,7 @@ function NewViewAppointment() {
 
             {/* Table */}
 
-            <div className="px-12 py-6 mx-4">
+            <div className="px-12 py-6 mx-4 ">
               {/* Card */}
               <div className="flex flex-wrap text-black  ">
                 {/* profile */}

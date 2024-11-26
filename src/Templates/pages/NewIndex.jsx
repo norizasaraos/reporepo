@@ -2,8 +2,16 @@ import { NavLink } from "react-router-dom";
 import Add_Dentist_Table from "../components/Add_Dentist_Table";
 import Table from "../components/Table";
 import User from "/src/images/user.png";
+import Admin_Table from "../components/Admin_Table";
+import { useState } from "react";
 
 function NewIndex() {
+  const [selectedPage, setSelectedPage] = useState("Table");
+
+  const handlePageChange = (event) => {
+    setSelectedPage(event.target.value);
+  };
+
   return (
     <div>
       <div className="flex h-screen w-screen bg-slate-300">
@@ -128,8 +136,33 @@ function NewIndex() {
           {/* Content */}
 
           <div className="p-12 mx-4">
-            <Table />
+            {/* Dropdown */}
+
+            <div>
+              <select
+                value={selectedPage}
+                onChange={handlePageChange}
+                className="bg-gray-200 cursor-pointer border w-fit text-center border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block  p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              >
+                <option value="page1">Patient</option>
+                <option value="page2">Dentist</option>
+                <option value="page3">Admin</option>
+              </select>
+            </div>
+
+            <div className="mt-4">
+              {selectedPage === "page2" ? (
+                <Add_Dentist_Table />
+              ) : selectedPage === "page3" ? (
+                <Admin_Table />
+              ) : (
+                <Table />
+              )}
+            </div>
+
+            {/* <Table />
             <Add_Dentist_Table />
+            <Admin_Table /> */}
           </div>
         </div>
       </div>

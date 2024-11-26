@@ -4,8 +4,8 @@ import User from "/src/images/user.png";
 function New_View_Feedback() {
   return (
     <>
-      <div>
-        <div className="flex h-screen w-screen bg-slate-300">
+      <div className="">
+        <div className="flex h-screen w-screen bg-slate-300 ">
           {/* Sidebar */}
           <div className="bg-gray-800 w-64 text-white p-4">
             <h1 className="text-xl font-bold mb-4 text-nowrap">
@@ -135,7 +135,7 @@ function New_View_Feedback() {
               <div className="border rounded-xl p-2 text-center w-fit justify-self-center px-3 bg-white text-black shadow-md">
                 Today October 2024
               </div>
-              <div className="mx-auto text-black w-full lg:w-8/12 ">
+              <div className="mx-auto text-black w-full lg:w-8/12 overflow-y-auto max-h-[500px] shadow-lg rounded-xl ">
                 <div className=" grid gap-1 p-4 border rounded-lg shadow-lg mt-2 bg-white ">
                   {/* Card */}
                   <div className="border p-4 rounded-xl bg-slate-100 shadow-md">
